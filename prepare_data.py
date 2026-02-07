@@ -6,7 +6,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-def fetch_btc_history(output_path: str = "raw_data/btc_usd_feb2026.csv", start: str = "2026-02-01", end: str = "2026-02-28", ticker: str = "BTC-USD", force: bool = False) -> Path:
+def fetch_btc_history(output_path: str = "raw_data/btc_usd_jan2026.csv", start: str = "2026-01-01", end: str = "2026-02-01", ticker: str = "BTC-USD", force: bool = False) -> Path:
     """Download BTC historical data and save as CSV.
 
     If the output file already exists and orce is False the existing file

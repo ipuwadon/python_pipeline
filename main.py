@@ -98,9 +98,9 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     # Default values (used when no subcommand is provided)
-    DEFAULT_START = '2026-02-01'
-    DEFAULT_END = '2026-02-28'
-    DEFAULT_OUTPUT = 'raw_data/btc_usd_feb2026.csv'
+    DEFAULT_START = '2026-01-01'
+    DEFAULT_END = '2026-02-01'
+    DEFAULT_OUTPUT = 'raw_data/btc_usd_jan2026.csv'
     DEFAULT_TICKER = 'BTC-USD'
     DEFAULT_CONFIG = 'db_credentials.yml'
     DEFAULT_OUTPUT_PQ = 'data/gold_btc_price'

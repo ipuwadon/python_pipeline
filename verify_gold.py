@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_parquet("data/year=2026/month=01/07022026092028.parquet")
+df = pd.read_parquet("data/year=2026/month=02/07022026103353.parquet")
 print(df.head())
 print(df.info())
 print(len(df))

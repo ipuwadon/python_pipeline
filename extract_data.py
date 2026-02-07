@@ -46,6 +46,7 @@ def read_db_config(path: str = "db_credentials.yml") -> Dict:
 
 def upsert_btc_prices(df: pd.DataFrame, db_config: Dict):
     """Insert (delete+insert) rows into 'bronze_btc_price' table."""
+
     conn = pymysql.connect(
         host=db_config.get('host', 'localhost'),
         user=db_config.get('user'),
